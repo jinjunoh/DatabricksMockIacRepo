@@ -1,0 +1,8 @@
+# Copy this file to terraform.tfvars and fill in real values.
+# Do NOT commit terraform.tfvars — it is git-ignored.
+
+databricks_host  = "https://adb-1234567890123456.7.azuredatabricks.net"
+databricks_token = "dapi000000000000000000000000000000"
+
+environment                     = "dev"
+cluster_autotermination_minutes = 60
