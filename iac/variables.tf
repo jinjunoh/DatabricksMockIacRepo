@@ -25,3 +25,15 @@ variable "cluster_autotermination_minutes" {
   type        = number
   default     = 60
 }
+
+variable "catalog_name" {
+  description = "Unity Catalog catalog name for managed tables"
+  type        = string
+  default     = "main"
+}
+
+variable "schema_name" {
+  description = "Schema (database) name for managed tables"
+  type        = string
+  default     = "tpcds"
+}
